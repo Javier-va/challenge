@@ -1,7 +1,7 @@
 # LEER antes de descargar el proyecto !
 
 NOTA1:
-Todo el proyecto se realizo en una maquina linux mint usando docker, asu vez todos los contenedores  se ejecutaron en mi red fisica haciendo uso del comando docker run --network host
+Todo el proyecto se realizo en una maquina linux mint usando docker, asu vez todos los contenedores  se ejecutaron en mi red fisica haciendo uso del comando docker run --network host  , por lo cual la bd , el backend y el nginx usan una misma ip , por eso no se encontraran ips todo esta como localhost haciendo referencia a mi maquina fisica
 
 
 
