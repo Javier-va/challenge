@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-alpine
+COPY microservicios-backend-retoibm-1.0.0-SNAPSHOT.jar /home/microservicios-backend-retoibm-1.0.0-SNAPSHOT.jar
+EXPOSE 3081
+CMD ["java","-jar","/home/microservicios-backend-retoibm-1.0.0-SNAPSHOT.jar"]
